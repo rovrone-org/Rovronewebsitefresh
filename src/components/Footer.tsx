@@ -42,7 +42,7 @@ export function Footer() {
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Mail, href: 'mailto:contact@rovronelabs.com', label: 'Email' }
+    { icon: Mail, href: 'mailto:rovronelabs@gmail.com', label: 'Email' }
   ];
 
   return (
@@ -55,7 +55,7 @@ export function Footer() {
               onClick={() => scrollToSection('home')}
               className="mb-6 transition-transform duration-300 hover:scale-105"
             >
-              <img src={logo} alt="RovrOne Labs" className="h-10 w-auto" />
+              <img src={logo} alt="RovrOne Labs" className="h-12 w-auto" />
             </button>
             <p className="text-gray-400 mb-6 max-w-sm">
               Trusted systems for aerial and ground robotics — engineering, manufacturing and training.
@@ -110,20 +110,13 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Support Links */}
+          {/* Contact Links */}
           <div>
-            <h4 className="mb-4">Support</h4>
+            <h4 className="mb-4">Contact</h4>
             <ul className="space-y-3">
-              {footerLinks.support.map((link, index) => (
-                <li key={index}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </button>
-                </li>
-              ))}
+              <li className="text-gray-400">rovronelabs@gmail.com</li>
+              <li className="text-gray-400">+91 90091 07086</li>
+              <li className="text-gray-400">Bhopal, Madhya Pradesh, India</li>
             </ul>
           </div>
         </div>

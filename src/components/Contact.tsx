@@ -29,19 +29,19 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'contact@rovronelabs.com',
-      link: 'mailto:contact@rovronelabs.com'
+      value: 'rovronelabs@gmail.com',
+      link: 'mailto:rovronelabs@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 90091 07086',
+      link: 'tel:+919009107086'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Bhopal, Madhya Pradesh, India',
       link: '#'
     }
   ];
