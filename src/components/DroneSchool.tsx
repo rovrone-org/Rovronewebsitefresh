@@ -70,7 +70,7 @@ export function DroneSchool() {
         </motion.div>
 
         {/* Benefits Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {benefits.map((benefit, index) => (
             <motion.div
               key={index}
@@ -90,7 +90,7 @@ export function DroneSchool() {
         </div>
 
         {/* Courses */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {courses.map((course, index) => (
             <motion.div
               key={index}
