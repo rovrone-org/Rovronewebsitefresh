@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from 'figma:asset/2a78b0024858d7a5d533ddacb50d84bdbf1e5c57.png';
+import logo from 'figma:asset/rov-logo.jpg';
 
 interface NavigationProps {
   activeSection: string;

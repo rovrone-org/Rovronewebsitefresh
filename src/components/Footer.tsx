@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
-import logo from 'figma:asset/583570f6771276f4fdc4013767f5ac75d0c9f94c.png';
+import logo from 'figma:asset/rov-logo.jpg';
 
 export function Footer() {
   const scrollToSection = (sectionId: string) => {
