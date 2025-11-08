@@ -31,7 +31,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 id="hero-company-name" className="max-w-4xl mx-auto mb-6">
+          <h1 id="hero-company-name" className="max-w-4xl mx-auto mb-6 text-5xl sm:text-8xl font-bold">
             RovrOne Labs
           </h1>
 
