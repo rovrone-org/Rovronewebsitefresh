@@ -17,7 +17,7 @@ export function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <div className="absolute inset-0" style={{
@@ -31,7 +31,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="max-w-4xl mx-auto mb-6 text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="max-w-4xl mx-auto mb-6 text-6xl md:text-8xl lg:text-9xl">
             RovrOne Labs
           </h1>
 
